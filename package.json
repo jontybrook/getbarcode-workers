@@ -1,0 +1,30 @@
+{
+  "private": false,
+  "name": "getbarcode-workers",
+  "version": "1.0.0",
+  "description": "Generate QR code images on-the-fly simply by requesting a URL, using serverless Cloudflare Workers",
+  "author": "Jonty Brook <me@jontyb.co.uk> (https://jonty.app)",
+  "license": "MIT",
+  "keywords": [
+    "qrcode",
+    "qr",
+    "barcode",
+    "cloudflare workers",
+    "serverless"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jontybrook/getbarcode-workers"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "qr-image": "^3.2.0",
+    "itty-router": "^2.4.8"
+  }
+}

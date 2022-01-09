@@ -1,0 +1,19 @@
+
+node_modules
+
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# env config
+.env
+
+dist
+worker

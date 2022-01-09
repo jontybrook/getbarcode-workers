@@ -1,0 +1,7 @@
+name = "getbarcode-workers"
+type = "webpack"
+workers_dev = true
+route = ""
+zone_id = "9691c03870184fd7f28508f6cb39314d"
+account_id = "42fc4977c90b94558000e7d89df12599"
+compatibility_date = "2022-01-09"
