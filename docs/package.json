@@ -1,0 +1,19 @@
+{
+  "name": "getbarcode-workers",
+  "version": "0.0.1",
+  "description": "Simple barcode generation API and CDN service",
+  "main": "index.js",
+  "authors": {
+    "name": "Jonty Brook",
+    "email": "me@jontyb.co.uk"
+  },
+  "repository": "git://github.com/jontybrook/getbarcode-workers/getbarcode-workers",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
